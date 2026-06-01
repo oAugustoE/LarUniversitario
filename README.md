@@ -76,18 +76,18 @@ Encontrar moradias proximas de universidades, onde o principal meio de encontrar
 	* Deve ser possivel avaliar locadores, tanto pelo serviço para a locação do imóvel quanto pelo imóvel em si.
  
 * ### RF07 - Verificação de anúncios
-  * O admnistrador deve verificar os anúncios, com os estados:
-	  * Pendentes
-	   * Aprovado
-	   * Rejeitado
+  * Os anúncios serão postados e terá como base a Moderação reativa, onde o anúncio:
+  	1. Irá ao ar automáticamente 
+	2. Caso algo de errado será aproveitado da RF09 para reportar o anúncio
+	3. Admnistrador reagira à denuncia 
 
 * ### RF08 - Favoritar anúncios
 	*  Usuarios devem conseguir favoritar anúncios e visualiza-los em uma aba dedicada.
  
-* ### RF08 - Reportar anúncios
+* ### RF09 - Reportar anúncios
 	*  Usuarios devem conseguir reportar anúncios e tais devem ser redirecionados para o admnistrador do sistema.
 
- * ### RF09 -  Chat em tempo real entre locador e locatário
+ * ### RF10 -  Chat em tempo real entre locador e locatário
 	*  Deve ser possivel que o locatário e o locador possam conversar dentre si, sendo possivel o compartilhamento de imagens.
   
 ### Requisitos não funcionais
