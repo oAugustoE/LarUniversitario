@@ -2,7 +2,7 @@
 
 ## Problema: 
 
-Encontrar moradias proximas de universidades, onde o principal meio de encontrar sendo grupos do facebook e imobiliarias, mas com poucos lugares próprios para estudantes tanto devido ao tamanho do lugar quanto pela distancia da universidade
+Encontrar moradias proximas de universidades, onde o principal meio de encontrar sendo grupos do facebook e imobiliarias, mas com poucos lugares próprios para estudantes tanto devido ao tamanho do lugar, quanto pela distância da universidade.
 
 
 ## Requisitos
@@ -38,7 +38,6 @@ Encontrar moradias proximas de universidades, onde o principal meio de encontrar
    * O usuário deve conseguir customizar  sua  conta podendo customizar:
 		* Nome
 		* Universidade / Locador
-		* Curso
 		* Foto de  Perfil
 		* Descrição do perfil
 
@@ -78,7 +77,7 @@ Encontrar moradias proximas de universidades, onde o principal meio de encontrar
 * ### RF07 - Verificação de anúncios
   * Os anúncios serão postados e terá como base a Moderação reativa, onde o anúncio:
   	1. Irá ao ar automáticamente 
-	2. Caso algo de errado será aproveitado da RF09 para reportar o anúncio
+	2. Caso o anúncio contenha informações falsas, conteúdo inadequado ou suspeita de fraude, qualquer usuário poderá reportá-lo conforme a RF09.
 	3. Admnistrador reagira à denuncia 
 
 * ### RF08 - Favoritar anúncios
@@ -100,5 +99,35 @@ Encontrar moradias proximas de universidades, onde o principal meio de encontrar
 	* O sistema deve estar disponivel 99% do tempo.
 * ### RNF04 - Desempenho
 	* As buscas devem retornar resultados em até 3 segundos para até 10k de anúncios cadastrados.
+* ### RNF05 - Usabilidade
+	* O sistema deve permitir que o usuário encontre anúncios próximos a uma 		universidade com no máximo três interações principais: pesquisar, filtrar e visualizar anúncio.
  
-		   
+
+### Regras de negócio
+
+* ### RN01 - Única criação de conta por email
+	* deve haver apenas uma conta por email registrado
+* ### RN02 - Único username durante criação de conta
+	* Usernames devem ser únicos para melhor identificação de contas
+* ### RN03 - Report único por usuario
+	* Um usuário apenas pode reportar uma vez outra conta
+* ### RN04 - Auto-Report impossbilitado
+	* Um usuário não pode se auto-reportar
+* ### RN05 - Um chat por interessado, lugar
+	* Um interessado pode ter apenas um chat por lugar
+* ### RN06 - Auto-avaliação impossibilitada
+	* Um usuario não pode se auto-avaliar
+* ### RN07 - Chat somente com o dono do lugar
+	* Todo o chat deve ser de 1 para 1 apenas com o dono do local
+* ### RN08 - Restrição ao favoritar duplamente
+	* Um usuário só pode favoritar um lugar apenas uma vez, não mais de uma.
+* ### RN09 - Apenas o criador do anúncio pode editar 
+	* Apenas o criador do anúncio pode editar o mesmo
+* ### RN10 - Sem auto-chatting
+	* Criador do anúncio não deve conseguir abrir um chat consigo mesmo
+* ### RN11 - Avaliações devem ter nota de 0-10
+	* Todas as devem ter uma nota de 0-10
+
+
+ ## Diagrama de entidades e relacionamentos
+ ![LarUniversitarioDer](docs/LarUniversitarioDER.drawio.png)
