@@ -88,7 +88,16 @@ Encontrar moradias proximas de universidades, onde o principal meio de encontrar
 
  * ### RF10 -  Chat em tempo real entre locador e locatário
 	*  Deve ser possivel que o locatário e o locador possam conversar dentre si, sendo possivel o compartilhamento de imagens.
-  
+
+* ### RN11 - Avaliações devem ter nota de 0 a 5
+	* Toda avaliação de imóvel ou usuário deve possuir uma nota entre 0 e 5.
+
+* ### RN12 - Anúncios removidos ou bloqueados não devem aparecer no catálogo
+	* Apenas anúncios com status ativo devem aparecer nas buscas públicas.
+
+* ### RN13 - Apenas usuários autenticados podem favoritar, avaliar, denunciar e abrir chat
+ 	* Usuários não autenticados podem apenas buscar e visualizar anúncios.
+
 ### Requisitos não funcionais
 
 * ### RNF01 - Segurança
@@ -106,28 +115,45 @@ Encontrar moradias proximas de universidades, onde o principal meio de encontrar
 ### Regras de negócio
 
 * ### RN01 - Única criação de conta por email
-	* deve haver apenas uma conta por email registrado
+	* deve haver apenas uma conta por email registrado.
+
 * ### RN02 - Único username durante criação de conta
-	* Usernames devem ser únicos para melhor identificação de contas
+	* Usernames devem ser únicos para melhor identificação de contas.
+
 * ### RN03 - Report único por usuario
-	* Um usuário apenas pode reportar uma vez outra conta
+	* Um usuário só pode reportar o mesmo anúncio uma vez.
+
 * ### RN04 - Auto-Report impossbilitado
-	* Um usuário não pode se auto-reportar
+	* Um usuário não pode se auto-reportar.
+
 * ### RN05 - Um chat por interessado, lugar
-	* Um interessado pode ter apenas um chat por lugar
+	* Um interessado pode ter apenas um chat por lugar.
+
 * ### RN06 - Auto-avaliação impossibilitada
-	* Um usuario não pode se auto-avaliar
+	* Um usuario não pode se auto-avaliar.
+
 * ### RN07 - Chat somente com o dono do lugar
-	* Todo o chat deve ser de 1 para 1 apenas com o dono do local
+	* Todo o chat deve ser de 1 para 1 apenas com o dono do local.
+
 * ### RN08 - Restrição ao favoritar duplamente
 	* Um usuário só pode favoritar um lugar apenas uma vez, não mais de uma.
+
 * ### RN09 - Apenas o criador do anúncio pode editar 
-	* Apenas o criador do anúncio pode editar o mesmo
+	* Apenas o criador do anúncio pode editar o mesmo.
+
 * ### RN10 - Sem auto-chatting
-	* Criador do anúncio não deve conseguir abrir um chat consigo mesmo
-* ### RN11 - Avaliações devem ter nota de 0-10
-	* Todas as devem ter uma nota de 0-10
+	* Criador do anúncio não deve conseguir abrir um chat consigo mesmo.
 
+* ### RN11 - Avaliações devem ter nota de 0-5
+	* Todas as devem ter uma nota de 0 à 5.
 
- ## Diagrama de entidades e relacionamentos
- ![LarUniversitarioDer](docs/LarUniversitarioDER.drawio.png)
+* ### RN12 - Funcionamento do report
+	* Um report deve ter place_id OU reported_user_id, mas não ambos obrigatoriamente.
+
+## Modelos e Diagramas
+ ### Diagrama de entidades e relacionamentos
+ ![LarUniversitarioDer](docs/diagrams/images/LarUniversitarioDER.drawio.png)
+
+ ### Diagrama de caso de uso
+ ![LarUniversitarioDer](docs/diagrams/images/LarUniversitarioUML.drawio.png)
+ 
