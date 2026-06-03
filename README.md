@@ -89,25 +89,20 @@ Encontrar moradias proximas de universidades, onde o principal meio de encontrar
  * ### RF10 -  Chat em tempo real entre locador e locatário
 	*  Deve ser possivel que o locatário e o locador possam conversar dentre si, sendo possivel o compartilhamento de imagens.
 
-* ### RN11 - Avaliações devem ter nota de 0 a 5
-	* Toda avaliação de imóvel ou usuário deve possuir uma nota entre 0 e 5.
-
-* ### RN12 - Anúncios removidos ou bloqueados não devem aparecer no catálogo
-	* Apenas anúncios com status ativo devem aparecer nas buscas públicas.
-
-* ### RN13 - Apenas usuários autenticados podem favoritar, avaliar, denunciar e abrir chat
- 	* Usuários não autenticados podem apenas buscar e visualizar anúncios.
-
 ### Requisitos não funcionais
 
 * ### RNF01 - Segurança
 	* As senhas devem ser armazenadas utilizando um hash seguro.
+
  * ### RNF02 - Responsividade
-	* O sistema deve funcionar em todos os dispositivos com telas maiores de 320px.
+	* O sistema deve funcionar em todos os dispositivos com telas maiores que 320px.
+
  * ### RNF03 - Disponibilidade
 	* O sistema deve estar disponivel 99% do tempo.
+
 * ### RNF04 - Desempenho
 	* As buscas devem retornar resultados em até 3 segundos para até 10k de anúncios cadastrados.
+
 * ### RNF05 - Usabilidade
 	* O sistema deve permitir que o usuário encontre anúncios próximos a uma 		universidade com no máximo três interações principais: pesquisar, filtrar e visualizar anúncio.
  
@@ -149,6 +144,12 @@ Encontrar moradias proximas de universidades, onde o principal meio de encontrar
 
 * ### RN12 - Funcionamento do report
 	* Um report deve ter place_id OU reported_user_id, mas não ambos obrigatoriamente.
+
+* ### RN13 - Anúncios removidos ou bloqueados não devem aparecer no catálogo
+	* Apenas anúncios com status ativo devem aparecer nas buscas públicas.
+
+* ### RN14 - Apenas usuários autenticados podem favoritar, avaliar, denunciar e abrir chat
+ 	* Usuários não autenticados podem apenas buscar e visualizar anúncios.
 
 ## Modelos e Diagramas
  ### Diagrama de entidades e relacionamentos
