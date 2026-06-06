@@ -8,7 +8,7 @@ Encontrar moradias proximas de universidades, onde o principal meio de encontrar
 ## Requisitos
 
 ### Atores
-* Usuario
+* Usuário
 	*  Tipo de Usuário, sendo os possiveis
 		*  Estudante
 		*  Proprietário
@@ -28,11 +28,11 @@ Encontrar moradias proximas de universidades, onde o principal meio de encontrar
 		
 ### Requisitos funcionais
 
-*  ### RF01 -  Cadastro e Login de Usuarios
-	* Usuario deve conseguir criar sua conta, usando:
+*  ### RF01 -  Cadastro e Login de Usuários
+	* Usuário deve conseguir criar sua conta, usando:
 		* Email
 		* Senha
-		* Nome de usuario
+		* Nome de usuário
 
 * ###  RF02 - Perfil do Usuário
    * O usuário deve conseguir customizar  sua  conta podendo customizar:
@@ -81,10 +81,10 @@ Encontrar moradias proximas de universidades, onde o principal meio de encontrar
 	3. Admnistrador reagira à denuncia 
 
 * ### RF08 - Favoritar anúncios
-	*  Usuarios devem conseguir favoritar anúncios e visualiza-los em uma aba dedicada.
+	*  Usuários devem conseguir favoritar anúncios e visualiza-los em uma aba dedicada.
  
 * ### RF09 - Reportar anúncios
-	*  Usuarios devem conseguir reportar anúncios e tais devem ser redirecionados para o admnistrador do sistema.
+	*  Usuários devem conseguir reportar anúncios e tais devem ser redirecionados para o admnistrador do sistema.
 
  * ### RF10 -  Chat em tempo real entre locador e locatário
 	*  Deve ser possivel que o locatário e o locador possam conversar dentre si, sendo possivel o compartilhamento de imagens.
@@ -115,7 +115,7 @@ Encontrar moradias proximas de universidades, onde o principal meio de encontrar
 * ### RN02 - Único username durante criação de conta
 	* Usernames devem ser únicos para melhor identificação de contas.
 
-* ### RN03 - Report único por usuario
+* ### RN03 - Report único por usuário
 	* Um usuário só pode reportar o mesmo anúncio uma vez.
 
 * ### RN04 - Auto-Report impossbilitado
@@ -125,7 +125,7 @@ Encontrar moradias proximas de universidades, onde o principal meio de encontrar
 	* Um interessado pode ter apenas um chat por lugar.
 
 * ### RN06 - Auto-avaliação impossibilitada
-	* Um usuario não pode se auto-avaliar.
+	* Um usuário não pode se auto-avaliar.
 
 * ### RN07 - Chat somente com o dono do lugar
 	* Todo o chat deve ser de 1 para 1 apenas com o dono do local.
@@ -153,8 +153,190 @@ Encontrar moradias proximas de universidades, onde o principal meio de encontrar
 
 ## Modelos e Diagramas
  ### Diagrama de entidades e relacionamentos
- ![LarUniversitarioDer](docs/diagrams/images/LarUniversitarioDER.drawio.png)
+ ![LarUniversitarioDer](docs/diagrams/DER/LarUniversitarioDER.drawio.png)
 
  ### Diagrama de caso de uso
- ![LarUniversitarioDer](docs/diagrams/images/LarUniversitarioUML.drawio.png)
+ ![LarUniversitarioDer](docs/diagrams/UML/LarUniversitarioUML.drawio.png)
  
+# Páginas e prototipação
+
+## Levantamento de páginas necessárias
+
+Com base nos requisitos funcionais do sistema **Lar Universitário**, foram identificadas as principais páginas necessárias para atender aos usuários estudantes, proprietários, locadores, repúblicas e administradores.
+
+As páginas foram categorizadas em três grupos principais:
+
+* **Páginas Públicas**: páginas acessíveis por qualquer usuário, mesmo sem estar autenticado.
+* **Páginas Visíveis Quando Cadastrado**: páginas ou funcionalidades disponíveis apenas para usuários autenticados.
+* **Páginas Privadas**: páginas relacionadas à gestão da conta, anúncios e informações pessoais do usuário.
+
+## Páginas Públicas
+
+### Landing Page
+
+A página de landing page serve principalmente para a conversão de usuários para o sistema, sendo o principal meio de captura de usuários para a plataforma. Ela apresentará locações próximas às principais universidades.
+
+### Catálogo de Locações
+
+Página onde serão listadas inicialmente as principais locações próximas às principais universidades. Contará com uma search box para que o usuário possa pesquisar imóveis e aplicar filtros de acordo com o RF05.
+
+Os anúncios serão exibidos em formato de cards organizados em grid, facilitando a visualização das opções disponíveis.
+
+### Página de Login + Cadastro
+
+Esta página servirá para login e cadastro do usuário, com as duas funções integradas na mesma tela. Terá um layout simples, contendo os inputs necessários para criar uma conta ou fazer login no sistema.
+
+### Página de Visualização de Anúncio
+
+Página na qual serão exibidos os dados da locação, descrição do anúncio, imagens, localização da propriedade pelo mapa, universidade próxima e informações gerais do imóvel.
+
+Usuários não autenticados poderão visualizar os dados públicos do anúncio, enquanto usuários autenticados terão acesso a ações adicionais, como favoritar, avaliar, denunciar e iniciar chat com o locador.
+
+### Página de Perfil Público
+
+Página que exibirá os anúncios do usuário, suas avaliações e informações públicas do perfil. Também poderá conter um botão para reportar o perfil do usuário, caso o visitante esteja autenticado.
+
+
+## Páginas Visíveis Quando Cadastrado
+
+### Página de Criação de Anúncio
+
+Esta página servirá como área para criação de anúncios. Será uma página sem scroll, com a passagem entre etapas ocorrendo através de um botão de próximo.
+
+Nela, o usuário que deseja alugar uma propriedade poderá inserir todos os dados necessários para a criação de um anúncio, como descrição, tipo de imóvel, valor mensal, fotos, distância da universidade e demais informações obrigatórias.
+
+### Página de Chat
+
+Página simples, com uma sidebar contendo os chats ativos do usuário. Ao selecionar um chat, será exibida uma área maior à direita com as mensagens da conversa.
+
+O chat terá um header indicando o anúncio ao qual a conversa está relacionada, permitindo a comunicação direta entre locador e interessado.
+
+### Página de Report
+
+Será um pop-up que aparecerá sobre o anúncio ou perfil ao apertar no botão de denunciar. O modal contará com um input para descrever o motivo da denúncia e um dropdown menu com categorias de denúncia.
+
+### Pop-up de Avaliação
+
+Ao apertar no botão para avaliar o local ou locador, será exibido um modal com 5 estrelas vazias. O usuário poderá selecionar a quantidade de estrelas correspondente à nota desejada e inserir um comentário sobre o imóvel ou serviço prestado.
+
+### Página de Favoritos
+
+Página que exibirá uma lista com os anúncios favoritados pelo usuário. Anúncios inativos não deverão ser exibidos, facilitando a localização dos imóveis salvos e disponíveis.
+
+
+## Páginas Privadas
+
+### Página de Edição de Anúncio
+
+Página que permitirá ao criador do anúncio alterar imagens, descrição e outros dados relacionados ao imóvel anunciado.
+
+Apenas o usuário que criou o anúncio poderá editar suas informações.
+
+### Página de Edição de Perfil
+
+Página onde será possível alterar os dados do perfil do usuário, como foto de perfil, apelido, tipo de usuário, universidade, descrição e demais informações pessoais exibidas no sistema.
+
+### Meus Anúncios
+
+Página que listará todos os anúncios criados pelo usuário. Cada card de anúncio terá opções para editar ou apagar o anúncio.
+
+### Página de Avaliações Recebidas
+
+Página onde o usuário poderá visualizar uma lista das avaliações recebidas, mostrando o nome do avaliador, a nota atribuída e o comentário feito pelo usuário avaliador.
+
+Essa página permite que locadores, proprietários, estudantes ou repúblicas acompanhem sua reputação dentro da plataforma.
+
+
+## Páginas admnistrativas
+
+### Denúncias
+
+Página onde serão listadas todas as denúncias feitas na plataforma, permitindo que o administrador visualize, analise e tome ações sobre os conteúdos ou usuários reportados.
+
+A página possibilitará filtrar e classificar as denúncias por:
+
+* Data de criação
+* Status da denúncia
+
+Também haverá uma área de pesquisa para inserir dados e buscar denúncias específicas dentro da plataforma.
+
+Cada denúncia deverá exibir informações relevantes, como:
+
+* Usuário que realizou a denúncia
+* Anúncio ou usuário denunciado
+* Motivo da denúncia
+* Categoria da denúncia
+* Data de criação
+* Status atual
+* Ações disponíveis para o administrador
+
+### Gerenciamento de Anúncios
+
+Página onde serão listados todos os anúncios cadastrados na plataforma, permitindo que o administrador visualize, pesquise, filtre e gerencie os anúncios existentes.
+
+A página possibilitará filtrar e classificar os anúncios por:
+
+* Data de criação
+* Status do anúncio
+* Universidade próxima
+* Cidade
+* Tipo de imóvel
+* Usuário criador
+
+Também haverá uma área de pesquisa para buscar anúncios específicos por informações como título, descrição, localização, nome do anunciante ou universidade.
+
+Cada anúncio deverá exibir informações relevantes, como:
+
+* Título do anúncio
+* Usuário criador
+* Tipo de imóvel
+* Universidade próxima
+* Valor mensal
+* Status atual
+* Data de criação
+* Ações disponíveis para o administrador
+
+As ações possíveis para o administrador incluem:
+
+* Visualizar detalhes do anúncio
+* Editar informações do anúncio, caso necessário
+* Remover anúncio
+* Bloquear anúncio
+* Reativar anúncio
+* Visualizar denúncias relacionadas ao anúncio
+
+### Gerenciamento de Usuários
+
+Página onde serão listados todos os usuários cadastrados na plataforma, permitindo que o administrador visualize, pesquise, filtre e gerencie os usuários existentes.
+
+A página possibilitará filtrar e classificar os usuários por:
+
+* Data de criação
+* Tipo de usuário
+* Status da conta
+* Quantidade de anúncios publicados
+* Quantidade de denúncias recebidas
+
+Também haverá uma área de pesquisa para buscar usuários específicos por informações como nome, e-mail, nome de usuário ou tipo de usuário.
+
+Cada usuário deverá exibir informações relevantes, como:
+
+* Nome do usuário
+* E-mail
+* Nome de usuário
+* Tipo de usuário
+* Status da conta
+* Data de criação
+* Quantidade de anúncios publicados
+* Quantidade de denúncias recebidas
+* Ações disponíveis para o administrador
+
+As ações possíveis para o administrador incluem:
+
+* Visualizar perfil do usuário
+* Visualizar anúncios do usuário
+* Visualizar denúncias relacionadas ao usuário
+* Bloquear usuário
+* Banir usuário
+* Reativar usuário
+* Remover conteúdo inadequado relacionado ao usuário
