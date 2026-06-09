@@ -462,3 +462,12 @@ As ações possíveis para o administrador incluem:
 * Reativar usuário
 * Remover conteúdo inadequado relacionado ao usuário
 
+# Prototipação de Páginas
+
+### Login
+
+ ![LarUniversitarioProtótipoLogin](docs/prototypes/login/ProtoLogin.png)
+
+ ### Landing Page
+
+ ![LarUniversitarioProtótipoLandingPage](docs/prototypes/landingpage/ProtoLanding.png)
