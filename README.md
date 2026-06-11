@@ -472,7 +472,11 @@ As ações possíveis para o administrador incluem:
 
  ![LarUniversitarioProtótipoLandingPage](docs/prototypes/landingpage/ProtoLanding.png)
 
- ### Landing Page
+ ### Chat Page
 
  ![LarUniversitarioProtótipoChat](docs/prototypes/chatpage/ProtoChat.png)
+
+ ### Catalog Page
+
+ ![LarUniversitarioProtótipoCátalogo](docs/prototypes/catalog/ProtoCatalog.png)
 
