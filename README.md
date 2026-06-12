@@ -480,3 +480,12 @@ As ações possíveis para o administrador incluem:
 
  ![LarUniversitarioProtótipoCátalogo](docs/prototypes/catalog/ProtoCatalog.png)
 
+  ### SignUp Page
+
+ ![LarUniversitarioProtótipoSignUp](docs/prototypes/signuppage/ProtoSign.png)
+
+   ### Ad View Page
+
+ ![LarUniversitarioProtótipoAdView](docs/prototypes/adviewpage/ProtoView.png)
+
+
