@@ -243,11 +243,20 @@ Cada card das locações apresentará tais informações relevantes:
 * Mobiliado ou não
 * Imagens da locação
 
-### Página de Login + Cadastro
+### Página de Login 
 
 
-Esta página servirá para login e cadastro do usuário, com as duas funções integradas na mesma tela. Terá um layout simples, contendo os inputs necessários para criar uma conta ou fazer login no sistema, também apresentará um hyperlink para fazer recuperação de senha
+Esta página servirá para login e cadastro do usuário, com as duas funções integradas na mesma tela. Terá um layout simples, contendo os inputs necessários  fazer login no sistema, também apresentará um hyperlink para fazer recuperação de senha
 
+### Página de Cadastro 
+
+
+Página semelhante à página de login, requirindo os dados necessarios para o registro, sendo eles:
+
+* Nome de usuário
+* Email
+* Senha
+* Confirmar Senha
 
 ### Página de Visualização de Anúncio
 
@@ -499,8 +508,7 @@ As ações possíveis para o administrador incluem:
 
  ![LarUniversitarioProtótipoLandingPage](docs/prototypes/landingpage/ProtoLanding.png)
 
- ### Catalog Page
-
+ ### Catálogo de Locações
  ![LarUniversitarioProtótipoCátalogo](docs/prototypes/catalog/ProtoCatalog.png)
 
  ### Login
