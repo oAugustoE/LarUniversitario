@@ -464,21 +464,48 @@ As ações possíveis para o administrador incluem:
 
 # Prototipação de Páginas
 
-### Login
+### Progresso
 
- ![LarUniversitarioProtótipoLogin](docs/prototypes/login/ProtoLogin.png)
+**Páginas comuns**
+
+[X] Landing Page<br>
+[X] Catálogo de Locações<br>
+[X] Página de Login + Cadastro<br>
+[X] Página de Visualização de Anúncio<br>
+[ ] Página de Perfil Público<br>
+[ ] Esqueci minha senha
+
+**Páginas Visíveis Quando Cadastrado**
+
+[ ] Página de Criação de Anúncio<br>
+[X] Página de Chat<br>
+[ ] Página de Report<br>
+[ ] Pop-up de Avaliação<br>
+[ ] Página de Favoritos<br>
+[ ] Página de Edição de Anúncio<br>
+[ ] Página de Edição de Perfil<br>
+[ ] Meus Anúncios<br>
+[ ] Página de Avaliações Recebidas
+
+**Páginas administrativas**
+
+[ ] Denúncias<br>
+[ ] Gerenciamento de Anúncios<br>
+[ ] Gerenciamento de Usuários
+
+## Páginas comuns
 
  ### Landing Page
 
  ![LarUniversitarioProtótipoLandingPage](docs/prototypes/landingpage/ProtoLanding.png)
 
- ### Chat Page
-
- ![LarUniversitarioProtótipoChat](docs/prototypes/chatpage/ProtoChat.png)
-
  ### Catalog Page
 
  ![LarUniversitarioProtótipoCátalogo](docs/prototypes/catalog/ProtoCatalog.png)
+
+ ### Login
+
+ ![LarUniversitarioProtótipoLogin](docs/prototypes/login/ProtoLogin.png)
 
   ### SignUp Page
 
@@ -488,4 +515,10 @@ As ações possíveis para o administrador incluem:
 
  ![LarUniversitarioProtótipoAdView](docs/prototypes/adviewpage/ProtoView.png)
 
+
+## Páginas Visíveis Quando Cadastrado
+
+ ### Chat Page
+
+ ![LarUniversitarioProtótipoChat](docs/prototypes/chatpage/ProtoChat.png)
 
