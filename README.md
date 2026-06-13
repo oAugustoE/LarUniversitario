@@ -481,7 +481,7 @@ As ações possíveis para o administrador incluem:
 [X] Catálogo de Locações<br>
 [X] Página de Login + Cadastro<br>
 [X] Página de Visualização de Anúncio<br>
-[ ] Página de Perfil Público<br>
+[X] Página de Perfil Público<br>
 [ ] Esqueci minha senha
 
 **Páginas Visíveis Quando Cadastrado**
@@ -522,6 +522,11 @@ As ações possíveis para o administrador incluem:
    ### Ad View Page
 
  ![LarUniversitarioProtótipoAdView](docs/prototypes/adviewpage/ProtoView.png)
+
+   ### Ad View Page
+
+ ![LarUniversitarioProtótipoProfileView](docs/prototypes/publicprofilePage/ProtoPublicProfile.png)
+
 
 
 ## Páginas Visíveis Quando Cadastrado
