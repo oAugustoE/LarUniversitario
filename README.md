@@ -527,6 +527,10 @@ As ações possíveis para o administrador incluem:
 
  ![LarUniversitarioProtótipoProfileView](docs/prototypes/publicprofilePage/ProtoPublicProfile.png)
 
+   ### Forgoten pass
+
+ ![LarUniversitarioProtótipoForgotPass](docs/prototypes/forgotmypass/Protoforgotpass.png)
+
 
 
 ## Páginas Visíveis Quando Cadastrado
