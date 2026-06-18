@@ -482,11 +482,11 @@ As ações possíveis para o administrador incluem:
 [X] Página de Login + Cadastro<br>
 [X] Página de Visualização de Anúncio<br>
 [X] Página de Perfil Público<br>
-[ ] Esqueci minha senha
+[X] Esqueci minha senha
 
 **Páginas Visíveis Quando Cadastrado**
 
-[ ] Página de Criação de Anúncio<br>
+[X] Página de Criação de Anúncio<br>
 [X] Página de Chat<br>
 [ ] Página de Report<br>
 [ ] Pop-up de Avaliação<br>
@@ -535,7 +535,13 @@ As ações possíveis para o administrador incluem:
 
 ## Páginas Visíveis Quando Cadastrado
 
+   ### Ad Creation
+
+ ![LarUniversitarioProtótipoAdCreatopm](docs/prototypes/adcreation/ProtoAdCreation.png)
+
+
  ### Chat Page
 
  ![LarUniversitarioProtótipoChat](docs/prototypes/chatpage/ProtoChat.png)
+
 
