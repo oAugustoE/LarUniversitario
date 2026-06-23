@@ -489,8 +489,8 @@ As ações possíveis para o administrador incluem:
 [X] Página de Criação de Anúncio<br>
 [X] Página de Chat<br>
 [X] Página de Report<br>
-[ ] Pop-up de Avaliação<br>
-[ ] Página de Favoritos<br>
+[X] Pop-up de Avaliação<br>
+[X] Página de Favoritos<br>
 [ ] Página de Edição de Anúncio<br>
 [ ] Página de Edição de Perfil<br>
 [ ] Meus Anúncios<br>
@@ -551,5 +551,9 @@ As ações possíveis para o administrador incluem:
   ### Report User Page
 
  ![LarUniversitarioProtótipoReportAd](docs/prototypes/reporting/reportAd/ProtoReportAd.png)
+
+  ### Rate Pop Up
+
+ ![LarUniversitarioProtótipoRatePopUp](docs/prototypes/reporting/reportAd/ProtoReportAd.png)
 
 
