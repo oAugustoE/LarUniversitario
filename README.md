@@ -554,6 +554,10 @@ As ações possíveis para o administrador incluem:
 
   ### Rate Pop Up
 
- ![LarUniversitarioProtótipoRatePopUp](docs/prototypes/reporting/reportAd/ProtoReportAd.png)
+ ![LarUniversitarioProtótipoRatePopUp](docs/prototypes/ratePopUp/ProtoRatePopUp.png/png)
+
+   ### Favourite list Page
+
+ ![LarUniversitarioProtótipoFavList](docs/prototypes/favlist//ProtoFavList.png)
 
 
