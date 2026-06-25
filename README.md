@@ -491,10 +491,10 @@ As ações possíveis para o administrador incluem:
 [X] Página de Report<br>
 [X] Pop-up de Avaliação<br>
 [X] Página de Favoritos<br>
-[ ] Página de Edição de Anúncio<br>
+[X] Página de Edição de Anúncio<br>
 [ ] Página de Edição de Perfil<br>
 [X] Meus Anúncios<br>
-[ ] Página de Avaliações Recebidas
+[X] Página de Avaliações Recebidas
 
 **Páginas administrativas**
 
@@ -560,6 +560,11 @@ As ações possíveis para o administrador incluem:
 
  ![LarUniversitarioProtótipoFavList](docs/prototypes/favlist//ProtoFavList.png)
 
+ ### Ad Edit Page
+
+ ![LarUniversitarioProtótipoMyRatings](docs/prototypes/adedit/ProtoAdEdit.png)
+
+
 ### My Ad List Page
 
  ![LarUniversitarioProtótipoMyAdsList](docs/prototypes/myadlist/ProtoMyAdList.png)
@@ -567,6 +572,7 @@ As ações possíveis para o administrador incluem:
  ### My Ratings
 
  ![LarUniversitarioProtótipoMyRatings](docs/prototypes/myratings/ProtoMyRatings.png)
+
 
 
 
