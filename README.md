@@ -492,7 +492,7 @@ As ações possíveis para o administrador incluem:
 [X] Pop-up de Avaliação<br>
 [X] Página de Favoritos<br>
 [X] Página de Edição de Anúncio<br>
-[ ] Página de Edição de Perfil<br>
+[X] Página de Edição de Perfil<br>
 [X] Meus Anúncios<br>
 [X] Página de Avaliações Recebidas
 
@@ -573,6 +573,8 @@ As ações possíveis para o administrador incluem:
 
  ![LarUniversitarioProtótipoMyRatings](docs/prototypes/myratings/ProtoMyRatings.png)
 
+### Profile Edit
 
+ ![LarUniversitarioProtótipoMyRatings](docs/prototypes/profiledit/ProtoProfileEditPage.png)
 
 
