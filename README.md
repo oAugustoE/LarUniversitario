@@ -581,7 +581,9 @@ As ações possíveis para o administrador incluem:
 ## Páginas de admnistração
 
 ### Report Listing Page
- ![LarUniversitarioProtótipoReportListingPage](docs/prototypes/reportp/ReportPage.png)
+ ![LarUniversitarioProtótipoReportListingPage](docs/prototypes/reportm/ReportPage.png)
 
  ### Ad Listing Page
- ![LarUniversitarioProtótipoAdsListingPage](docs/prototypes/adsp/AdsListPage.png)
+ ![LarUniversitarioProtótipoAdsListingPage](docs/prototypes/adsm/AdsListPage.png)
+
+ 
