@@ -498,7 +498,7 @@ As ações possíveis para o administrador incluem:
 
 **Páginas administrativas**
 
-[ ] Denúncias<br>
+[X] Denúncias<br>
 [ ] Gerenciamento de Anúncios<br>
 [ ] Gerenciamento de Usuários
 
@@ -575,6 +575,10 @@ As ações possíveis para o administrador incluem:
 
 ### Profile Edit
 
- ![LarUniversitarioProtótipoMyRatings](docs/prototypes/profiledit/ProtoProfileEditPage.png)
+ ![LarUniversitarioProtótipoProfileEdit](docs/prototypes/profiledit/ProtoProfileEditPage.png)
 
 
+## Páginas de admnistração
+
+### Report Listing Page
+ ![LarUniversitarioProtótipoMyRatings](docs/prototypes/reportp/ReportPage.png)
