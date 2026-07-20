@@ -499,8 +499,8 @@ As ações possíveis para o administrador incluem:
 **Páginas administrativas**
 
 [X] Denúncias<br>
-[ ] Gerenciamento de Anúncios<br>
-[ ] Gerenciamento de Usuários
+[X] Gerenciamento de Anúncios<br>
+[X] Gerenciamento de Usuários
 
 ## Páginas comuns
 
@@ -589,5 +589,20 @@ As ações possíveis para o administrador incluem:
   ### User Management Page
  ![LarUniversSitarioProtótipoAdsManagementPage](docs/prototypes/userm/UserManagementPage.png)
 
- 
+ # Tecnologias de Desenvolvimento
+
+## Banco de Dados
+
+### Banco de dados local
+
+- **PostgreSQL** : Postgre será o banco de dados de desenvolvimento e deploy local, será usado pois há grande integração com o banco de dados em núvem escolhido, pois usa como base o postgre também.
+
+    Outro motivo importante para essa escolha foi devido a estrutura em SQL, facilitando fazer correlações entre tabelas.
+
+
+### Banco de dados em núvem
+
+- **Supabase** : Supabase foi escolhido para ser o banco de dados em núvem, devido a presença de servidores no brasil, a facilidade de migrar do Postgre ao Supabase
+    
+    Outro fator importante para a escolha de Supabase foi devido a possuir um plano de banco de dados gratuito, exatamente para facilitar o inicio da plataforma
 
