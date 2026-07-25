@@ -81,3 +81,12 @@ CREATE TABLE institutions (
     CONSTRAINT institutions_valid_latitude CHECK (latitude BETWEEN -90 AND 90),
     CONSTRAINT institutions_valid_longitude CHECK (longitude BETWEEN -180 AND 180)
 );
+
+CREATE TABLE chats() (
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    interested_id BIGINT NOT NULL REFERENCES users (id) ON DELETE CASCADE,
+    place_id BIGINT NOT NULL REFERENCES places (id) ON DELETE CASCADE,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT unique_chat_pair UNIQUE (interested_id, place_id)
+);
