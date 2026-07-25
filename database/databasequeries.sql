@@ -34,7 +34,7 @@ CREATE TABLE
         deleted_at TIMESTAMPTZ
     );
 
-CREATE TABLE
+CREATE TABLE 
     places (
         id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
         owner_id BIGINT NOT NULL REFERENCES users (id) ON DELETE RESTRICT,
@@ -65,3 +65,19 @@ CREATE TABLE
         CONSTRAINT places_valid_latitude CHECK (latitude BETWEEN -90 AND 90),
         CONSTRAINT places_valid_longitude CHECK (longitude BETWEEN -180 AND 180)
     );
+
+CREATE TABLE institutions (
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    name VARCHAR(200) NOT NULL UNIQUE,
+    address VARCHAR(250) NOT NULL,
+    district VARCHAR(100) NOT NULL,
+    city VARCHAR(100) NOT NULL,
+    state CHAR(2) NOT NULL,
+    longitude NUMERIC(9, 6) NOT NULL,
+    latitude NUMERIC(9, 6) NOT NULL,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    deleted_at TIMESTAMPTZ,
+    CONSTRAINT institutions_valid_latitude CHECK (latitude BETWEEN -90 AND 90),
+    CONSTRAINT institutions_valid_longitude CHECK (longitude BETWEEN -180 AND 180)
+);
