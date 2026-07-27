@@ -573,16 +573,10 @@ As ações possíveis para o administrador incluem:
 
  ![LarUniversitarioProtótipoMyRatings](docs/prototypes/myratings/ProtoMyRatings.png)
 
-<<<<<<< HEAD
  
  ### Profile Edit page
 
  ![LarUniversitarioProtótipoMyRatings](docs/prototypes/profiledit/ProtoProfileEditPage.png)
-=======
-### Profile Edit
-
- ![LarUniversitarioProtótipoProfileEdit](docs/prototypes/profiledit/ProtoProfileEditPage.png)
->>>>>>> a1f4df8a2681fcbbe2f67a8f634e78d969b9fa54
 
 
 ## Páginas de admnistração
