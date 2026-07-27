@@ -498,9 +498,9 @@ As ações possíveis para o administrador incluem:
 
 **Páginas administrativas**
 
-[ ] Denúncias<br>
-[ ] Gerenciamento de Anúncios<br>
-[ ] Gerenciamento de Usuários
+[X] Denúncias<br>
+[X] Gerenciamento de Anúncios<br>
+[X] Gerenciamento de Usuários
 
 ## Páginas comuns
 
@@ -573,10 +573,43 @@ As ações possíveis para o administrador incluem:
 
  ![LarUniversitarioProtótipoMyRatings](docs/prototypes/myratings/ProtoMyRatings.png)
 
+<<<<<<< HEAD
  
  ### Profile Edit page
 
  ![LarUniversitarioProtótipoMyRatings](docs/prototypes/profiledit/ProtoProfileEditPage.png)
+=======
+### Profile Edit
+
+ ![LarUniversitarioProtótipoProfileEdit](docs/prototypes/profiledit/ProtoProfileEditPage.png)
+>>>>>>> a1f4df8a2681fcbbe2f67a8f634e78d969b9fa54
 
 
+## Páginas de admnistração
+
+### Report Management Page
+ ![LarUniversitarioProtótipoReportManagementPage](docs/prototypes/reportm/ReportPage.png)
+
+ ### Ad Management Page
+ ![LarUniversitarioProtótipoAdsManagementPage](docs/prototypes/adsm/AdsListPage.png)
+
+  ### User Management Page
+ ![LarUniversSitarioProtótipoAdsManagementPage](docs/prototypes/userm/UserManagementPage.png)
+
+ # Tecnologias de Desenvolvimento
+
+## Banco de Dados
+
+### Banco de dados local
+
+- **PostgreSQL** : Postgre será a banco de dados de desenvolvimento e deploy local, será usado pois há grande integração com o banco de dados em núvem escolhido, pois usa como base o PostgreSQL também.
+
+    Outro motivo importante para essa escolha foi devido a estrutura em SQL, facilitando fazer correlações entre tabelas.
+
+
+### Banco de dados em núvem
+
+- **Supabase** : Supabase foi escolhido para ser a plataforma de banco de dados em núvem, devido a presença de servidores no brasil, a facilidade de migrar do Postgre ao Supabase@
+    
+    Outro fator importante para a escolha de Supabase foi devido a possuir um plano de banco de dados gratuito, exatamente para facilitar o inicio da plataforma
 
